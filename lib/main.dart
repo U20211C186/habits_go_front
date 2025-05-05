@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:habits_go_front/screens/login_page.dart'; // Asegúrate de que la ruta sea correcta
+
 
 void main() {
   runApp(const MainApp());
@@ -22,11 +24,7 @@ class MainApp extends StatelessWidget {
       */
 
       // Comment this section when you are done developing the app
-      home: const Scaffold(
-        body: Center(
-          child: Text("Hello World")
-        )
-      )
+      home: LoginPage()
     );
   }
 }
